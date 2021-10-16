@@ -4,33 +4,21 @@
 
 ## OpenCore Version
 
-- 0.7.3
+- 0.7.4
 
 ## MAC OS Version
 
-- Big Sur 11.0 - 11.2
-
-## Note
-
-Please use SSDTTime to patch your own SSDT, do not use mine as not all the configuration work the same on your device.
-
-You can only dump SSDT on Windows or Linux
-
-Please downgrade your bios if you're at version 3.1.1. （As my bios version is 3.1.1，and it works）
-
-Please generate your own SMBIOS SN, UUID using MacBookPro14,1 and change your ROM based on your Ethernet Mac Address.
-
-
+- Big Sur 11.0 - 11.6 (All versions are supported!)
 
 ## Laptop Specifications
 
 | Name              | Specifications                                               |
 | ----------------- | ------------------------------------------------------------ |
 | Processor         | Intel Core i7 - 7500U                                        |
-| Memory            | 1x 4 GB DDR4 2133 Mhz                                        |
+| Memory            | 4+8 GB DDR4 2133 Mhz                                         |
 | Storage           | SSD 128G                                                     |
 | Video             | Integrated Intel HD 620 + NVIDIA 940MX                       |
-| Wi-Fi + Bluetooth | Qualcomm Atheros 9565                                    |
+| Wi-Fi + Bluetooth | Qualcomm Atheros 9565                                        |
 | Ethernet          | Realtek RTL8111                                              |
 | Audio             | Realtek ALC255                                               |
 | Touchpad          | ELAN 1000 I2C Interface                                      |
@@ -75,7 +63,7 @@ For more details about my laptop, please see `laptop-config-list.txt` file in th
 
 ✅ Onboard Ethernet
 
-⚠️ FN Keys (Volume Control, Sleep works)
+✅ FN Keys
 
 ⚠️ SD Card (Not Tested)
 
@@ -87,23 +75,6 @@ For more details about my laptop, please see `laptop-config-list.txt` file in th
 
 ❌ NVIDIA GeForce 940MX (Optimus - impossible to get working at the moment)
 
-
-
-## Notice
-
-
-
-If want your `AR9565 Wireles Card` work, you should：
-
--  Step1: add  `AirPortAtheros40.kext` and `HS80211Family.kext` to your `EFI/OC/Kexts`directory.
-
-- Step2: modify `config.plist` add `AirPortAtheros40.kext` and `HS80211Family.kext` and keep the load order correct.
-
-  
-
-
-
-
 ## Contact
 
 - 1824793405@qq.com
@@ -114,4 +85,5 @@ If want your `AR9565 Wireles Card` work, you should：
 ## Thanks
 
 - This EFI is based on [firmanjamal](https://github.com/firmanjml/Asus-X556UQK-Hackintosh-OC) 's repo. I just modified some stuff and let it worked for my laptop. If your laptop is similar to mine, hopefully it work for you too. 
-
+- Thanks a lot to Robin Liu's works!
+- Love,hjh70526
