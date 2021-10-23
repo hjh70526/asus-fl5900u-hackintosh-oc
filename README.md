@@ -29,6 +29,9 @@
 For more details about my laptop, please see `laptop-config-list.txt` file in this repo.
 
 
+## Warning
+My English isn's good,so I will completely use Chinese in some advance settings and supports.
+
 
 ## What Works 
 
@@ -43,7 +46,7 @@ For more details about my laptop, please see `laptop-config-list.txt` file in th
 
 ✅ Internal screen backlight change
 
-✅ Wi-Fi
+✅ Wi-Fi (You will be better to buy a new one like Intel's or a real one on Mac Book!)
 
 ✅ UVC HD Webcam
 
