@@ -44,6 +44,8 @@ My English isn's good,so I will completely use Chinese in some advance settings 
 
 ✅ Keyboard
 
+✅ Touchpad (It works great now!)
+
 ✅ Internal screen backlight change
 
 ✅ Wi-Fi (You will be better to buy a new one like Intel's or a real one on Mac Book!)
@@ -57,8 +59,6 @@ My English isn's good,so I will completely use Chinese in some advance settings 
 ✅ Native power managment
 
 ✅ Battery status
-
-✅ ️Sleep
 
 ✅ Bluetooth
 
@@ -74,7 +74,7 @@ My English isn's good,so I will completely use Chinese in some advance settings 
 
 ❌ Realtek SD card reader
 
-❌ Touchpad (It's terrible,you won't need it!)
+❌ ️Sleep (I don't know why,it dosen't work since OpenCore 0.7.4)
 
 ❌ NVIDIA GeForce 940MX (Optimus - impossible to get working at the moment)
 
