@@ -22,14 +22,6 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-EC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
 				<string>SSDT-BATT.aml</string>
 			</dict>
 			<dict>
@@ -38,7 +30,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-PLUG.aml</string>
+				<string>SSDT-BKeyQ0EQ0F-FL5900U.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -46,7 +38,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-BKeyQ0EQ0F-FL5900U.aml</string>
+				<string>SSDT-EC-USBX-LAPTOP.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -68,7 +60,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-OCI2C-TPXX-FL5900U.aml</string>
 			</dict>
@@ -79,6 +71,22 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-PLUG-_PR.CPU0.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PLUG-DRTNIA.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PLUG.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -949,28 +957,7 @@
 			<string>Optional</string>
 		</dict>
 		<key>Tools</key>
-		<array>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>Name</key>
-				<string>CleanNvram</string>
-				<key>Path</key>
-				<string>CleanNvram.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 	</dict>
 	<key>NVRAM</key>
 	<dict>
@@ -981,7 +968,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 alcid=13 -v vsmcgen=1 -no_compat_check -lilubetaall brcmfx-country=HK brcmfx-driver=2</string>
+				<string>keepsyms=1 alcid=13 -v vsmcgen=1 -no_compat_check -lilubetaall brcmfx-country=HK brcmfx-driver=2 -hbfx-disable-patch-pci</string>
 				<key>csr-active-config</key>
 				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>

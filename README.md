@@ -48,13 +48,15 @@ My English isn's good,so I will completely use Chinese in some advance settings 
 
 ✅ Internal screen backlight change
 
-✅ Wi-Fi (You will be better to buy a new one like Intel's or a real one on Mac Book!)
+✅ Wi-Fi (You'd better to buy a new one like Intel's or a real one on Mac Book!)
 
 ✅ UVC HD Webcam
 
 ✅ Speaker
 
 ✅ Laptop lid
+
+✅ Sleep (Fixed!But not stable,you'd better not use sleep!)
 
 ✅ Native power managment
 
@@ -73,8 +75,6 @@ My English isn's good,so I will completely use Chinese in some advance settings 
 ✅ VGA/HDMI (Audio + Video)
 
 ❌ Realtek SD card reader
-
-❌ ️Sleep (I don't know why,it dosen't work since OpenCore 0.7.4)
 
 ❌ NVIDIA GeForce 940MX (Optimus - impossible to get working at the moment)
 
