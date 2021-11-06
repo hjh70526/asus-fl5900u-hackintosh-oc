@@ -78,15 +78,14 @@ My English isn's good,so I will completely use Chinese in some advance settings 
 
 ❌ NVIDIA GeForce 940MX (Optimus - impossible to get working at the moment)
 
+
 ## Contact
 
-- 1824793405@qq.com
 - hjh70526@gmail.com
-
 
 
 ## Thanks
 
-- This EFI is based on [firmanjamal](https://github.com/firmanjml/Asus-X556UQK-Hackintosh-OC) 's repo. I just modified some stuff and let it worked for my laptop. If your laptop is similar to mine, hopefully it work for you too. 
+- This EFI is based on [rjm521's repo](https://github.com/rjm521/asus-fl5900u-hackintosh-oc). I just modified some stuff and let it worked for my laptop. If your laptop is similar to mine, hopefully it work for you too. 
 - Thanks a lot to Robin Liu's works!
 - Love,hjh70526
