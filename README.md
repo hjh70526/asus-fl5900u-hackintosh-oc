@@ -31,7 +31,7 @@ For more details about my laptop, please see `laptop-config-list.txt` file in th
 
 ## Warning
 My English isn's good,so I will completely use Chinese in some advance settings and supports.
-
+Default language in recovery has changed to English,clean NVRAM to let it work!
 
 ## What Works 
 
